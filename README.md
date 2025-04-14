@@ -16,41 +16,15 @@ CVPDF is a quick and lightweight python solution for generating a modern CV from
 
 ## 📂 Files
 
--   `cv_generator.py`: Main script that reads XML and outputs the PDF.
+-   `main.py`: Main script that reads XML and outputs the PDF.
     
--   `contents.xml`: Example XML file with all supported tags and structure.
+-   `contents.xml`: Example XML file with supported tags and structure.
     
 -   `fonts/`: Contains the custom fonts used for styling.
     
--   `icons/`: Small icons used for section headers (e.g., user, briefcase).
+-   `icons/`: Small icons used for section headers (personal, employment history).
+
     
-
-## ▶️ How to Use
-
-1.  Make sure you have the required dependencies:# 📝 CV Generator from XML
-
-This Python script generates a styled PDF CV/resume from an XML input file.
-
-## 📄 What It Does
-
-- Reads personal, professional, and other CV-related information from an XML file.
-- Uses the `fpdf` library to generate a beautifully formatted PDF.
-- Supports sections like:
-  - Name and title
-  - Profile summary
-  - Employment history
-  - Skills (with progress bars)
-  - Languages
-  - Hobbies
-  - Contact details
-
-## 📂 Files
-
-- `cv_generator.py`: Main script that reads XML and outputs the PDF.
-- `contents.xml`: Example XML file with all supported tags and structure.
-- `fonts/`: Contains the custom fonts used for styling.
-- `icons/`: Small icons used for section headers (e.g., user, briefcase).
-
 ## ▶️ How to Use
 
 1. Make sure you have the required dependencies:
@@ -67,11 +41,9 @@ This Python script generates a styled PDF CV/resume from an XML input file.
     python cv_generator.py
     ```
 
-4. The generated PDF will be saved as `cv_from_xml.pdf`.
+4. The generated PDF will be saved as `cv.pdf`.
 
 ## 📑 XML Structure
-
-The XML file includes tags like:
 
 ```xml
 <personal>
