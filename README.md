@@ -9,21 +9,7 @@ CVPDF is a quick and lightweight python solution for generating a modern CV from
     
 -   Uses the `fpdf` library to generate a formatted PDF.
     
--   Supports sections like:
-    
-    -   Name and title
-        
-    -   Profile summary
-        
-    -   Employment history
-        
-    -   Skills (with progress bars)
-        
-    -   Languages
-        
-    -   Hobbies
-        
-    -   Contact details
+## Example Output
 
  ![Example output](output.png)
         
