@@ -7,7 +7,7 @@ CVPDF is a quick and lightweight python solution for generating a modern CV from
 
 -   Reads personal, professional, and other CV-related information from an XML file.
     
--   Uses the `fpdf` library to generate a beautifully formatted PDF.
+-   Uses the `fpdf` library to generate a formatted PDF.
     
 -   Supports sections like:
     
@@ -24,6 +24,8 @@ CVPDF is a quick and lightweight python solution for generating a modern CV from
     -   Hobbies
         
     -   Contact details
+
+ ![Example output](output.png)
         
 
 ## 📂 Files
