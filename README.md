@@ -20,7 +20,7 @@ CVPDF is a quick and lightweight python solution for generating a modern CV from
     
 -   `contents.xml`: Example XML file with supported tags and structure.
     
--   `fonts/`: Contains the custom fonts used for styling.
+-   `fonts/`: Contains the custom fonts used for the pdf.
     
 -   `icons/`: Small icons used for section headers (personal, employment history).
 
@@ -38,7 +38,7 @@ CVPDF is a quick and lightweight python solution for generating a modern CV from
 3. Run the script:
 
     ```bash
-    python cv_generator.py
+    python main.py
     ```
 
 4. The generated PDF will be saved as `cv.pdf`.
