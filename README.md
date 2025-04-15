@@ -1,9 +1,9 @@
 
-# 📝 CVPDF
+# CVPDF
 
 CVPDF is a quick and lightweight python solution for generating a modern CV from XML input.
 
-## 📄 What It Does
+## What It Does
 
 -   Reads personal, professional, and other CV-related information from an XML file.
     
@@ -14,7 +14,7 @@ CVPDF is a quick and lightweight python solution for generating a modern CV from
  ![Example output](output.png)
         
 
-## 📂 Files
+## Files
 
 -   `main.py`: Main script that reads XML and outputs the PDF.
     
@@ -43,7 +43,7 @@ CVPDF is a quick and lightweight python solution for generating a modern CV from
 
 4. The generated PDF will be saved as `cv.pdf`.
 
-## 📑 XML Structure
+## XML Structure
 
 ```xml
 <personal>
