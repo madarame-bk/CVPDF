@@ -43,6 +43,17 @@ CVPDF is a quick and lightweight python solution for generating a modern CV from
 
 4. The generated PDF will be saved as `cv.pdf`.
 
+
+## Now With Multilanguage Support
+
+-   Simply include all `.xml` files with different versions in the `xml_files` array. They will be generated beginning with a new page.
+    
+
+## Typography
+
+-   CVPDF will automatically insert non-breakable spaces after one character prepositions so the PDF looks professional.
+
+
 ## XML Structure
 
 ```xml
