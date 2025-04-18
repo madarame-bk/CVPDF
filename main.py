@@ -45,7 +45,8 @@ class CVPDF(FPDF):
             self.image(icon_path, x=icon_x - 8, y=icon_y, w=icon_width, h=icon_height)
 
         self.set_font("font_a", "B", self.base_font_size * 1.6)
-        self.cell(0, 10, title, ln=1)
+        self.cell(0, 10, title, ln=1) 
+
         self.set_font("font_a", "", self.base_font_size)
 
     def right_section_header(self, title):
@@ -94,7 +95,6 @@ class CVPDF(FPDF):
         self.section_title(self.data.findtext('profile/title') or '', "icons/user.png")
         self.set_font("font_a", "", self.base_font_size * 1.1)
         summary = self.data.findtext('profile/summary') or ""
-        # Aplikuj funkci pro nahrazení mezer
         summary = replace_one_character_spaces(summary)
         self.multi_cell(self.left_width - 10, self.base_font_size*0.6, summary)
         self.ln(5)
@@ -106,7 +106,6 @@ class CVPDF(FPDF):
             company = job.findtext('company') or ''
             self.set_font("font_a", "B", self.base_font_size * 1.1)
 
-            # Aplikuj funkci pro nahrazení mezer
             title = replace_one_character_spaces(title)
             company = replace_one_character_spaces(company)
 
@@ -122,7 +121,6 @@ class CVPDF(FPDF):
             self.set_text_color(0, 0, 0)
             self.ln(2)
             description = job.findtext("description") or ""
-            # Aplikuj funkci pro nahrazení mezer
             description = replace_one_character_spaces(description)
             self.multi_cell(self.left_width - 10, self.base_font_size*0.6, description)
             self.ln(5)
